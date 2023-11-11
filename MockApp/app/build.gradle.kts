@@ -1,6 +1,8 @@
 plugins {
+    kotlin("kapt")
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("com.google.dagger.hilt.android")
 }
 
 android {
@@ -73,4 +75,12 @@ dependencies {
     implementation("org.orbit-mvi:orbit-viewmodel:$orbit_mvi")
     implementation("org.orbit-mvi:orbit-compose:$orbit_mvi")
     testImplementation("org.orbit-mvi:orbit-test:$orbit_mvi")
+
+    // Dagger Hilt
+    implementation("com.google.dagger:hilt-android:2.44")
+    kapt("com.google.dagger:hilt-android-compiler:2.44")
+}
+
+kapt {
+    correctErrorTypes = true
 }
