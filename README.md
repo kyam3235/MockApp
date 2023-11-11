@@ -13,4 +13,4 @@ Android Studio Giraffe | 2022.3.1 Patch 3
 - Compoase
 - Material3
 - Dagger Hilt
-- [Orbit MVI}(https://github.com/orbit-mvi/orbit-mvi)
+- [Orbit MVI](https://github.com/orbit-mvi/orbit-mvi)
