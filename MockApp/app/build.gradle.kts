@@ -66,4 +66,11 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+    // Orbit MVI
+    val orbit_mvi = "6.1.0"
+    implementation("org.orbit-mvi:orbit-core:$orbit_mvi")
+    implementation("org.orbit-mvi:orbit-viewmodel:$orbit_mvi")
+    implementation("org.orbit-mvi:orbit-compose:$orbit_mvi")
+    testImplementation("org.orbit-mvi:orbit-test:$orbit_mvi")
 }
